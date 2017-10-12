@@ -9,10 +9,10 @@ module SessionsHelper
   def remember(user)
     user.remember
     cookies.permanent.signed[:user_id] = user.id
-    cookies.permanent.signed[:remember_token] = user.remember_token
+    cookies.permanent[:remember_token] = user.remember_token
   end
 
-  # returns the user in a persistent session
+  # Returns the user corresponding to the remember token cookie.
   def current_user
     if (user_id = session[:user_id])
       @current_user ||= User.find_by(id: user_id)
