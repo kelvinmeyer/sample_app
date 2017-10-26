@@ -5,6 +5,7 @@ This is the sample application for
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+This implementation of the tutorial was completed by Kelvin Meyer. The site is active and can be found [here](https://lit-brook-46052.herokuapp.com/)
 ## License
 
 All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
